@@ -1,0 +1,178 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main_body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup{
+    height: 50vh;
+    width: 50%;
+    background-color: #cb94f8;
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: .9;
+    display: nonw;
+
+}
+.tic_tac_banner{
+    font-size: 50px;
+    color:rgb(255, 166, 0);
+    height: 20vh;
+    width: 40vh;
+    position: absolute;
+    top : 20px; 
+    padding:10px;
+    box-sizing: border-box;
+    text-align: center;
+    /* background-color: #705d5d; */
+}
+button{
+    background-color: #ffffff;
+    color:black;
+    border: none;
+    height: 5vw;
+    width: 10vw;
+    font-size: 2vw;
+}
+#para{
+    font-size: 7vw;;
+}
+button:hover{
+    background-color: aquamarine;
+    
+}
+#XandO{
+    font-size: 8vw;
+    color: #ffffff;
+
+}
+.frame{
+    height: 50vh;
+    width: 30vw;
+    position: relative;
+}
+#texts{
+
+    /* font-size: 50px; */
+    color: rgb(140, 241, 225);
+}
+.boxs{
+    height: 32%;
+    width: 32%;
+    background-color: rgb(219, 219, 241);
+    float: left;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 1px 14px 3px #705d5d;
+    color: red;
+   
+}
+.boxs:hover{
+    box-shadow: inset 2px 1px 14px 3px #705d5d;
+   
+}
+
+
+#one{
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#two{
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#three{
+    border-bottom: 1px solid red;
+    /* border-bottom: 1px solid red; */
+}
+#four{
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#five{
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+#six{
+    border-bottom: 1px solid red;
+    /* border-bottom: 1px solid red; */
+}
+#seven{
+    border-right: 1px solid red;
+    /* border-bottom: 1px solid red; */
+}
+#eight{
+    border-right: 1px solid red;
+    /* border-bottom: 1px solid red; */
+}
+
+.boxs:hover{
+    background-color: aliceblue;
+}
+
+@media only screen and (max-width:1100px) and (min-width:700px) {
+
+    .frame{
+        height: 40vh;
+        width: 40vw;
+    }
+    #para{
+        font-size:7vw;
+    }
+
+}
+ @media only screen and (max-width:800px) and (min-width:500px) {
+
+    .frame{
+        height: 40vh;
+        width: 60vw;
+    }
+    .popup{
+        height: 40vh;
+        width: 70%;
+    }
+    #para{
+        font-size: 10vw;;
+    }
+
+}
+
+@media only screen and (max-width:500px) and (min-width:300px) {
+
+    .frame{
+        height: 40vh;
+        width: 80vw;
+    }
+    .popup{
+        height: 40vh;
+        width: 90%;
+    }
+    #para{
+        font-size: 15vw;;
+    }
+
+}
+@media only screen and (max-width:300px) and (min-width:200px){
+
+    .frame{
+        height: 30vh;
+        width: 100vw;
+    }
+    .popup{
+        height: 30vh;
+        width: 100%;
+    }
+
+}

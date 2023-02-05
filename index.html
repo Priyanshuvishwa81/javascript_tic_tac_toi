@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div class="main_body">
+
+        <div class="tic_tac_banner">
+            Tic Tac Toi<hr>
+        </div><br>
+
+
+        <div class="frame">
+
+            <div class="boxs" onclick="insert_data(id)" id="one"></div>
+            <div class="boxs" onclick="insert_data(id)" id="two"></div>
+            <div class="boxs" onclick="insert_data(id)" id="three"></div>
+            <div class="boxs" onclick="insert_data(id)" id="four"></div>
+            <div class="boxs" onclick="insert_data(id)" id="five"></div>
+            <div class="boxs" onclick="insert_data(id)" id="six"></div>
+            <div class="boxs" onclick="insert_data(id)" id="seven"></div>
+            <div class="boxs" onclick="insert_data(id)" id="eight"></div>
+            <div class="boxs" onclick="insert_data(id)" id="nine"></div>
+
+
+        </div>
+
+        <div class="popup" id="popup">
+            <br>
+            <div id="texts"> <span id="XandO">X</span> <br><span id="para">Win The Match</span> <br> <button
+                    onclick="reset_game()"> Restart</button></div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
